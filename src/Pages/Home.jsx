@@ -8,12 +8,14 @@ const Home = () => {
     const mainData = fullData.slice(0, 8)
 
     return (
-        <div className='grid grid-cols-4 gap-4 max-w-7xl mx-auto'>
-            {
-                mainData.map(data=> <DemoCardsHome data={data}></DemoCardsHome>)
-            }
-        </div>
+        <>
 
+            <div className='grid grid-cols-4 gap-4 max-w-7xl mx-auto'>
+                {
+                    mainData.map(data => <DemoCardsHome data={data}></DemoCardsHome>)
+                }
+            </div>
+        </>
     );
 };
 

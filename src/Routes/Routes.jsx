@@ -22,11 +22,11 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: 'app',
+        path: '/app',
         element: <App/>
       },
       {
-        path: 'install',
+        path: '/install',
         element: <Install/>
       }
     ]

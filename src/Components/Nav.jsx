@@ -43,7 +43,7 @@ const Nav = () => {
             </div>
 
             <div className="navbar-end">
-                <a className="btn btn-primary">Contribute</a>
+                <a href='https://github.com/theTODEsage/react-router-assignment' target='_blank' className="btn btn-primary">Contribute</a>
             </div>
         </div>
     );
