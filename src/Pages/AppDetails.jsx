@@ -1,12 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { useLoaderData, useParams } from 'react-router';
 
-const AppDataCard = ({ appsData }) => {
-    const { image, title, downloads, ratingAvg, id } = appsData
+const AppDetails = () => {
+    const {id} = useParams()
+    const apps = useLoaderData()
+    
+    const app = apps.find(a=> String(a.id)===id)
+    
+    
+    const {image, title, downloads, ratingAvg} = app
+
     return (
-        <>
-            <Link to={`/appDetails/${id}`}>
-                <div className="max-w-xs rounded border bg-white">
+        <div className="max-w-xs rounded border bg-white">
                     <img
                         src={image}
                         alt=""
@@ -21,13 +26,7 @@ const AppDataCard = ({ appsData }) => {
                         </div>
                     </div>
                 </div>
-
-            </Link>
-
-
-
-        </>
     );
 };
 
-export default AppDataCard;
+export default AppDetails;
