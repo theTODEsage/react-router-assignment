@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Nav = () => {
     return (
@@ -31,7 +31,7 @@ const Nav = () => {
                         <li><NavLink to='/install'>Installation</NavLink></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Hero.Io</a>
+                <Link to='/' className="btn btn-ghost text-xl">Hero.Io</Link>
             </div>
 
             <div className="navbar-center hidden lg:flex">

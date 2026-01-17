@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLoaderData, useParams, Link } from 'react-router';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
@@ -9,6 +9,15 @@ const AppDetails = () => {
     const [showToast, setShowToast] = useState(false);
 
     const app = apps.find(a => String(a.id) === id);
+
+    useEffect(() => {
+        const installedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+        const found = installedApps.find(app => String(app.id) === id);
+        if (found) {
+            setIsInstalled(true);
+        }
+    }, [id]);
+
     if (!app) {
         return (
             <div className="text-center mt-20">
@@ -29,6 +38,9 @@ const AppDetails = () => {
     };
 
     const handleInstall = () => {
+        const installedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+        installedApps.push(app);
+        localStorage.setItem('installedApps', JSON.stringify(installedApps));
         setIsInstalled(true);
         setShowToast(true);
         setTimeout(() => setShowToast(false), 3000);
@@ -53,6 +65,7 @@ const AppDetails = () => {
                     </div>
                 </div>
             )}
+
             <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <div className="flex gap-8">
                     <img src={image} alt={title} className="w-64 h-64 object-contain rounded-lg" />
@@ -89,6 +102,7 @@ const AppDetails = () => {
                     </div>
                 </div>
             </div>
+
             <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
                 <h2 className="text-2xl font-bold mb-6">Ratings & Reviews</h2>
                 <ResponsiveContainer width="100%" height={300}>
@@ -105,6 +119,7 @@ const AppDetails = () => {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
+
             <div className="bg-white rounded-lg shadow-lg p-8">
                 <h2 className="text-2xl font-bold mb-4">About this app</h2>
                 <p className="text-gray-700">{description}</p>
