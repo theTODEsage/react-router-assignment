@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Notion_app_logo.png",
+    "image": "https://imgs.search.brave.com/SNtB-QZIgRFsPasx3cocJHmqQjIctRQI6DLhuC66tFA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LW5vdGlvbi1sb2dv/LWljb24tc3ZnLWRv/d25sb2FkLXBuZy04/NjMwMzk2LnBuZz9m/PXdlYnAmdz0yNTY",
     "title": "Notion",
     "companyName": "Notion Labs",
     "description": "All-in-one workspace for notes and tasks.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Visual_Studio_Code_1.35_icon.svg",
+    "image": "https://imgs.search.brave.com/vset1sqp-SOCudl-1ufWoewvra_jMBwRk8uIVWoQJwg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuY2RubG9nby5j/b20vbG9nb3Mvdi8z/NS92cy1jb2RlX3Ro/dW1iLnBuZw",
     "title": "VS Code",
     "companyName": "Microsoft",
     "description": "Source-code editor for developers.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/GitHub_Mark.png",
+    "image": "https://imgs.search.brave.com/FjOAY2Y7fyITaJL6KmfDGOK8P9CX9xA9VzF1B9xaOvo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IyL2M1/L2U2L2IyYzVlNjUz/ODRiMWIwZWE0Y2Qz/NTFiNjE1NWUxYjI5/LmpwZw",
     "title": "GitHub",
     "companyName": "Microsoft",
     "description": "Code hosting and collaboration platform.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Zoom_Communications_Logo.svg",
+    "image": "https://imgs.search.brave.com/FmMZS7gJ4c5HuLxWf9WJOmxjF6B88rvdVHVMjIURuyc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzM3LzIvem9vbS1s/b2dvLXBuZ19zZWVr/bG9nby0zNzMxNDcu/cG5n",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "description": "Video conferencing and online meetings.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/TikTok_logo.svg",
+    "image": "https://imgs.search.brave.com/Q_VQY6wu-RSgivnDmDwRdrZ3lkHnQV13uqEB_lkRleo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bW9ja29mdW4uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzA1L1Rpa1Rvay1M/b2dvLVRyYW5zcGFy/ZW50LnBuZw",
     "title": "TikTok",
     "companyName": "ByteDance",
     "description": "Short-form video social platform.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Discord_logo.svg",
+    "image": "https://imgs.search.brave.com/jbWnpa8C6br8jieqGuO4iv_8AplDd3dbFpI6_V1r1Fs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTgv/OTMwLzcxOC9zbWFs/bC9kaXNjb3JkLWxv/Z28tZGlzY29yZC1p/Y29uLXRyYW5zcGFy/ZW50LWZyZWUtcG5n/LnBuZw",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "description": "Voice, video, and chat platform for communities.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dropbox_logo_2017.svg",
+    "image": "https://imgs.search.brave.com/kgJHG215coo2oXi5QMtVvNcWN3wAuVYG83O6y5tKhag/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/c2Rvd24uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzEw/L2Ryb3Bib3gtbG9n/by0wLTIwNDh4MjA0/OC0xLnBuZw",
     "title": "Dropbox",
     "companyName": "Dropbox Inc.",
     "description": "Cloud file storage and sharing service.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Reddit_logo_and_wordmark.svg",
+    "image": "https://imgs.search.brave.com/yOwgfwKfhc0M_Lc9JVI5H5NoL2g7ziYo9PXp5wzdBB8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzU2LzIvcmVkZGl0/LWxvZ28tcG5nX3Nl/ZWtsb2dvLTU2NTUx/My5wbmc",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "description": "Community-based discussion platform.",

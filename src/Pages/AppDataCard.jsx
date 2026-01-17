@@ -1,9 +1,10 @@
 import React from 'react';
 
-const DemoCardsHome = ({ data }) => {
-    const { image, title, downloads, ratingAvg } = data
+const AppDataCard = ({appsData}) => {
+    const { image, title, downloads, ratingAvg } = appsData
     return (
-        <div className="max-w-xs rounded border bg-white">
+        <>
+            <div className="max-w-xs rounded border bg-white">
             <img
                 src={image}
                 alt="Forest App"
@@ -18,8 +19,11 @@ const DemoCardsHome = ({ data }) => {
                 </div>
             </div>
         </div>
-
+        
+        
+        
+        </>
     );
 };
 
-export default DemoCardsHome;
+export default AppDataCard;
